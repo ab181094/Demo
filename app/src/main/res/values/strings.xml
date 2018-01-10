@@ -7,4 +7,6 @@
     <string name="clear">Clear</string>
     <string name="load_image_from_url">Load Image From URL</string>
     <string name="title_activity_load_image">Load Image From URL</string>
+    <string name="title_activity_youtube">Youtube</string>
+    <string name="youtube">Youtube</string>
 </resources>

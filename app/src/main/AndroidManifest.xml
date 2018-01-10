@@ -39,6 +39,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.amrit.demo.MainActivity" />
         </activity>
+        <activity
+            android:name=".youtube.YoutubeActivity"
+            android:label="@string/title_activity_youtube"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.amrit.demo.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

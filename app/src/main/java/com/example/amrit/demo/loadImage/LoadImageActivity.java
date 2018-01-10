@@ -1,17 +1,18 @@
 package com.example.amrit.demo.loadImage;
 
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.View;
 import android.widget.ImageView;
 
 import com.example.amrit.demo.R;
 import com.squareup.picasso.Picasso;
 
 public class LoadImageActivity extends AppCompatActivity {
+    // add the library
+    // add imageView in xml
+    // add code here
+
     String image_url = "http://www.hdwallpapersfreedownload.com/uploads/large/super-heroes/" +
             "hd-free-download-hero-of-superman.jpg";
 
@@ -19,17 +20,8 @@ public class LoadImageActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_load_image);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         ImageView imageView = findViewById(R.id.loadImage_imageView);

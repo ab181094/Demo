@@ -26,5 +26,12 @@
             android:layout_height="wrap_content"
             android:onClick="loadImage"
             android:text="@string/load_image_from_url" />
+
+        <Button
+            android:id="@+id/bt_youtube"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="youtube"
+            android:text="@string/youtube" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
