@@ -5,26 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.amrit.demo.MainActivity"
-    tools:showIn="@layout/activity_main">
+    tools:context="com.example.amrit.demo.loadImage.LoadImageActivity"
+    tools:showIn="@layout/activity_load_image">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <Button
-            android:id="@+id/bt_notificationBadge"
+        <ImageView
+            android:id="@+id/loadImage_imageView"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="notificationBadge"
-            android:text="@string/notification_badge" />
-
-        <Button
-            android:id="@+id/bt_loadImageFromURL"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="loadImage"
-            android:text="@string/load_image_from_url" />
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            app:srcCompat="@mipmap/ic_launcher" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

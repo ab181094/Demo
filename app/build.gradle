@@ -28,4 +28,6 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
     // Notification Badge Library
     compile 'com.nex3z:notification-badge:0.3.0'
+    // Load Image Library
+    compile 'com.squareup.picasso:picasso:2.5.2'
 }
