@@ -48,6 +48,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.amrit.demo.MainActivity" />
         </activity>
+        <activity
+            android:name=".takeImage.CameraActivity"
+            android:label="@string/title_activity_camera"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.amrit.demo.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

@@ -9,4 +9,7 @@
     <string name="title_activity_load_image">Load Image From URL</string>
     <string name="title_activity_youtube">Youtube</string>
     <string name="youtube">Youtube</string>
+    <string name="title_activity_camera">Camera</string>
+    <string name="open_camera">Open Camera</string>
+    <string name="capture_image">Capture Image</string>
 </resources>

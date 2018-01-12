@@ -33,5 +33,11 @@
             android:layout_height="wrap_content"
             android:onClick="youtube"
             android:text="@string/youtube" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="captureImage"
+            android:text="@string/capture_image" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

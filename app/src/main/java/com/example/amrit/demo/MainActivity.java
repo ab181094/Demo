@@ -10,6 +10,7 @@ import android.view.View;
 
 import com.example.amrit.demo.loadImage.LoadImageActivity;
 import com.example.amrit.demo.notificationBadge.NotificationBadgeActivity;
+import com.example.amrit.demo.takeImage.CameraActivity;
 import com.example.amrit.demo.youtube.YoutubeActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -56,6 +57,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void youtube(View view) {
         Intent intent = new Intent(MainActivity.this, YoutubeActivity.class);
+        startActivity(intent);
+    }
+
+    public void captureImage(View view) {
+        Intent intent = new Intent(MainActivity.this, CameraActivity.class);
         startActivity(intent);
     }
 }
