@@ -11,6 +11,8 @@ import android.widget.ImageView;
 
 import com.example.amrit.demo.R;
 
+import uk.co.senab.photoview.PhotoViewAttacher;
+
 public class CameraActivity extends AppCompatActivity {
     // add imageView in xml
     // add code here
@@ -38,5 +40,8 @@ public class CameraActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
         Bitmap bitmap = (Bitmap) data.getExtras().get("data");
         cameraImage.setImageBitmap(bitmap);
+
+        PhotoViewAttacher attacher = new PhotoViewAttacher(cameraImage);
+        attacher.update();
     }
 }

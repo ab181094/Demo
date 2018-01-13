@@ -30,4 +30,6 @@ dependencies {
     compile 'com.nex3z:notification-badge:0.3.0'
     // Load Image Library
     compile 'com.squareup.picasso:picasso:2.5.2'
+    // for zooming
+    implementation 'com.github.chrisbanes:PhotoView:1.2.6'
 }
