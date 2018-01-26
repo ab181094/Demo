@@ -12,4 +12,6 @@
     <string name="title_activity_camera">Camera</string>
     <string name="open_camera">Open Camera</string>
     <string name="capture_image">Capture Image</string>
+    <string name="particle_text_view">Particle Text View</string>
+    <string name="title_activity_particle_text_view">ParticleTextViewActivity</string>
 </resources>

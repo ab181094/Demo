@@ -35,9 +35,17 @@
             android:text="@string/youtube" />
 
         <Button
+            android:id="@+id/bt_captureImage"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="captureImage"
             android:text="@string/capture_image" />
+
+        <Button
+            android:id="@+id/bt_particleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="particleTextView"
+            android:text="@string/particle_text_view" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
